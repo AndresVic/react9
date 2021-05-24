@@ -1,0 +1,108 @@
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  max-width: 750px;
+  border-style: solid;
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+.card {
+  transition: 0.3s;
+  max-width: 750px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: green;
+  background-image: url("/src/img/cuervos.jpg");
+  background-repeat: no-repeat;
+  background-position-y: 335px;
+  background-position-x: 610px;
+  
+}
+
+.card1:hover {
+  box-shadow: 0 10px 16px 0 rgba(12, 146, 5, 0.487);
+}
+
+.container{
+	display: flex;
+	justify-content: center;
+  align-items: center;
+  padding: 10px 16px;
+}
+
+.logo{
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col {
+  float: left;
+  width: auto;
+  margin-top: 2px;
+  padding: 12px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 2px;
+  display: flex;
+}
+
+.col-50 {
+  float: left;
+  width: 50%;
+  margin-top: 2px;
+  display: flex;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 2px;
+  display: flex;
+}
+.padding-left {
+  padding-left: 12px;
+}
+.padding-right{
+  justify-content: right;
+  align-items: right;
+}
+
+
+img{
+  max-width:100%;
+}
+
+.estudiante{
+  max-height:200px;
+  width: auto;
+  border-style: solid;
+  border-color: green;;
+}
+
+.letra{
+  font-size: 19.5px;
+  line-height: 0;
+}
+.letra2{
+  font-size: 19.5px;
+}
+.negritas{
+  font-weight: bold;
+  color: black;
+}
+.cursiva{
+  font-style: oblique;
+  color: black;
+}
