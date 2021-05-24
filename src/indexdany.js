@@ -23,7 +23,7 @@ const contenido = <div>
                             <p class="negritas letra">Matricula:</p>
                         </div>
                         <div class="col-50 letra">
-                            <p>221811724.</p>
+                            <p>221810736</p>
                         </div>
                         <div class="col-25">
                             <p class="negritas letra">Nombre:</p>
