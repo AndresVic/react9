@@ -1,0 +1,9 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+.img{
+    border: 1px solid rgb(95, 255, 95);
+    border-radius: 15px;
+}
