@@ -35,11 +35,11 @@ export default class Lista extends React.Component{
             <table className="table table-hover">
                 <thead className="thead-dark">
                     <tr>
-                        <th className="bg-light" scope="col">#</th>
-                        <th className="bg-light" scope="col">Foto</th>
-                        <th className="bg-light" scope="col">Nombre</th>
-                        <th className="bg-light" scope="col">Fecha</th>
-                        <th className="bg-light" scope="col">Archivo</th>
+                        <th scope="col">#</th>
+                        <th scope="col">Foto</th>
+                        <th scope="col">Nombre</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Archivo</th>
                     </tr>
                 </thead>
                 <tbody>
