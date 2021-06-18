@@ -1,4 +1,5 @@
 import React from 'react'
+import Menu from './Menu'
 
 export default class Lista extends React.Component{
         constructor(props){
@@ -31,6 +32,7 @@ export default class Lista extends React.Component{
     }
     render(){
         return <div className="table-responsive-sm">
+            <Menu />
             <h3>Componente: Lista</h3><hr />
             <table className="table table-hover">
                 <thead className="thead-dark">

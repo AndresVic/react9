@@ -1,4 +1,5 @@
 import React from 'react'
+import Menu from './Menu';
 
 export default class Form extends React.Component {
     constructor(props){
@@ -18,21 +19,24 @@ export default class Form extends React.Component {
     }
     render(){
         return (
-            <div className="container col-md-6 text-center">
-                <div className="card">
-                    <div className="card-body">
-                        <h1 className="a2">Formulario N°.1</h1>
-                        <hr />
-                        <form onSubmit={ this.envioFormulario } className="mb-4">
-                            <div className="form-group">
-                                <label>Nombre: </label>
-                                <input type="text" name="nombre" value={ this.state.nombre } className="form-control" onChange={ this.envioNombre }/>
-                            </div>
-                            <div className="form-group">
-                                {/* <label>Nombre: </label> */}
-                                <input type="submit" className="btn btn-success btn-sm mt-4" />
-                            </div>
-                        </form> 
+            <div className="container">
+                <Menu />
+                <div className="container col-md-6 text-center">
+                    <div className="card">
+                        <div className="card-body">
+                            <h1 className="a2">Formulario N°.1</h1>
+                            <hr />
+                            <form onSubmit={ this.envioFormulario } className="mb-4">
+                                <div className="form-group">
+                                    <label>Nombre: </label>
+                                    <input type="text" name="nombre" value={ this.state.nombre } className="form-control" onChange={ this.envioNombre }/>
+                                </div>
+                                <div className="form-group">
+                                    {/* <label>Nombre: </label> */}
+                                    <input type="submit" className="btn btn-success btn-sm mt-4" />
+                                </div>
+                            </form> 
+                        </div>
                     </div>
                 </div>
             </div>

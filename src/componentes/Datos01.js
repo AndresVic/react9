@@ -6,6 +6,7 @@ import Datos04 from "./Datos04";
 import Lista from "./Lista";
 // import Captura from "./Captura(PENDIENTE)";
 // import Form from "./Form00";
+import Menu from "./Menu";
 
 import pig from '../img/pig.jpg'
 import archivo_1 from "../files/horario.pdf"
@@ -15,6 +16,7 @@ var text="Información textual desde Datos01.js";
 export default class Datos01 extends React.Component {
         render(){
             return <div className="container">
+                <Menu />
                 <div className="row">
                     <div className="col-sm">
                         <Datos02 img={pig} pdf={archivo_1} texto={text} dato=", componente N°.2" />

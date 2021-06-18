@@ -7,6 +7,7 @@ import Datos03 from '../componentes/Datos03'
 import Datos04 from '../componentes/Datos04'
 import Lista from '../componentes/Lista'
 import Form from '../componentes/Form00'
+import Menu from '../componentes/Menu'
 
 import Error from '../componentes/Error'
 
@@ -20,6 +21,7 @@ export default function Router(){
                 <Route exact path='/datos4' component={Datos04}/>
                 <Route exact path='/lista' component={Lista}/>
                 <Route exact path='/formulario' component={Form}/>
+                <Route exact path='/menu' component={Menu}/>
                 <Route component={ Error } />
             </Switch>
         </BrowserRouter>
