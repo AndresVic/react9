@@ -4,7 +4,8 @@ import Datos02 from "./Datos02";
 import Datos03 from "./Datos03";
 import Datos04 from "./Datos04";
 import Lista from "./Lista";
-// import Captura from "./Captura" PENDIENTE;
+// import Captura from "./Captura(PENDIENTE)";
+// import Form from "./Form00";
 
 import pig from '../img/pig.jpg'
 import archivo_1 from "../files/horario.pdf"
@@ -29,6 +30,8 @@ export default class Datos01 extends React.Component {
                 <Lista />
                 <hr />
                 {/* <Captura /> PENDIENTE */}
+                <hr />
+                {/* <Form /> */}
                 <br/><br/>
                 <br/><br/>
             </div>

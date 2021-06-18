@@ -4,11 +4,11 @@ import reactDom from "react-dom"
 import 'bootstrap/dist/css/bootstrap.css'
 import './css/main.css'
 
-import Datos01 from "./componentes/Datos01"
+import Router from "./route/Router"
 
 const contenido = <div className="container mt-4">
 
-   <Datos01 />
+   <Router />
 
 </div>
 
