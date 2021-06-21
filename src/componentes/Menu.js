@@ -17,6 +17,9 @@ export default class Menu extends React.Component {
                     <li className="nav-item">
                         <a className="nav-link" href="formulario">Formulario</a>
                     </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="formulario2">Formulario2</a>
+                    </li>
                 </ul>
             </div>
         )
