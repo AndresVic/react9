@@ -9,6 +9,8 @@ import Lista from '../componentes/Lista'
 import Form from '../componentes/Form00'
 import Menu from '../componentes/Menu'
 import Form1 from '../componentes/Form01'
+import CredencialAndres from '../componentes/CredencialAndres'
+import Pg_01 from '../pages/Pg_01'
 
 import Error from '../componentes/Error'
 
@@ -23,7 +25,9 @@ export default function Router(){
                 <Route exact path='/lista' component={Lista}/>
                 <Route exact path='/formulario' component={Form}/>
                 <Route exact path='/menu' component={Menu}/>
-                <Route exact path='/formulario2' component={Form1}/>
+                <Route exact path='/formulario2' component={Form1}/>                
+                <Route exact path='/credencial-tarea' component={CredencialAndres}/>                
+                <Route exact path='/datos-alumno' component={Pg_01}/>
                 <Route component={ Error } />
             </Switch>
         </BrowserRouter>

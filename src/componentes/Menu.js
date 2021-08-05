@@ -20,6 +20,12 @@ export default class Menu extends React.Component {
                     <li className="nav-item">
                         <a className="nav-link" href="formulario2">Formulario2</a>
                     </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="credencial-tarea">Credencial</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="datos-alumno">Datos Alumno</a>
+                    </li>
                 </ul>
             </div>
         )

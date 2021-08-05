@@ -3,14 +3,14 @@
   transition: 0.3s;
   max-width: 750px;
   border-style: solid;
-  display: flex;
 	justify-content: center;
   align-items: center;
   padding: 10px 10px;
   border-radius: 20px;
+  background-color: white;
 }
 
-.card {
+.card2 {
   transition: 0.3s;
   max-width: 750px;
   border-style: solid;
@@ -18,8 +18,9 @@
   border-color: green;
   background-image: url("/src/img/cuervos.jpg");
   background-repeat: no-repeat;
-  background-position-y: 335px;
-  background-position-x: 610px;
+  background-position-y: 292px;
+  background-position-x: 557px;
+  background-size: 90px;
   
 }
 
@@ -27,54 +28,53 @@
   box-shadow: 0 10px 16px 0 rgba(12, 146, 5, 0.487);
 }
 
-.container{
-	display: flex;
+.container-crendencial {
 	justify-content: center;
   align-items: center;
   padding: 10px 16px;
 }
 
-.logo{
+.logoC{
   margin-top: 2px;
   margin-bottom: 0;
 }
 
-.row:after {
+.rowC:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.col {
+.colC {
   float: left;
   width: auto;
-  margin-top: 2px;
+  margin-top: -12px;
   padding: 12px;
 }
 
-.col-25 {
+.col-25C {
   float: left;
   width: 25%;
   margin-top: 2px;
   display: flex;
 }
 
-.col-50 {
+.col-50C {
   float: left;
   width: 50%;
   margin-top: 2px;
   display: flex;
 }
-.col-75 {
+.col-75C {
   float: left;
   width: 75%;
   margin-top: 2px;
   display: flex;
 }
-.padding-left {
+.padding-leftC {
   padding-left: 12px;
 }
-.padding-right{
+.padding-rightC {
   justify-content: right;
   align-items: right;
 }
@@ -84,25 +84,29 @@ img{
   max-width:100%;
 }
 
-.estudiante{
+p{
+  color:black;
+}
+
+.estudianteC{
   max-height:200px;
   width: auto;
   border-style: solid;
   border-color: green;;
 }
 
-.letra{
+.letraC{
   font-size: 19.5px;
-  line-height: 0;
+  line-height: 1;
 }
-.letra2{
+.letra2C{
   font-size: 19.5px;
 }
-.negritas{
+.negritasC{
   font-weight: bold;
   color: black;
 }
-.cursiva{
+.cursivaC{
   font-style: oblique;
   color: black;
 }
